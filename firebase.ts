@@ -14,7 +14,6 @@ const firebaseConfig = {
   measurementId: "G-NXC7QE1MFR"
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const db = getDatabase(app);
@@ -25,7 +24,7 @@ export const signInWithGoogle = async () => {
     const result = await signInWithPopup(auth, googleProvider);
     return result.user;
   } catch (error) {
-    console.error("Auth Error:", error);
+    console.error("Error signing in with Google", error);
     throw error;
   }
 };
