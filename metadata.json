@@ -1,0 +1,8 @@
+{
+  "name": "GeminiPay",
+  "description": "An advanced UPI-like payment application with integrated AI assistant, QR payments, and real-time transaction tracking.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
