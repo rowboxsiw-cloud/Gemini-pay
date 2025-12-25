@@ -1,7 +1,7 @@
 
 import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider, signInWithPopup, signOut } from 'firebase/auth';
-import { getDatabase, ref, get, set, update, onValue, push, serverTimestamp } from 'firebase/database';
+import { getDatabase, ref, get, set, update, onValue, push } from 'firebase/database';
 
 const firebaseConfig = {
   apiKey: "AIzaSyC-t_vB6OujhQfAHuMoC9VgybEIl8IaAsA",
